@@ -1,5 +1,6 @@
-.intro__list {
+.header__nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
 }
