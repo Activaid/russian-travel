@@ -1,0 +1,11 @@
+.cover__background {
+    display: flex;
+    flex-direction: column;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url('../../../images/cover-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: inherit;
+    text-decoration-line: none;
+}
