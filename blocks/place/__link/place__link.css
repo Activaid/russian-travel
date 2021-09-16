@@ -2,6 +2,7 @@
     font-size: 18px;
     text-decoration-line: underline;
     color: inherit;
+    transition: opacity .5s ease;
 }
 
 .place__link:hover {

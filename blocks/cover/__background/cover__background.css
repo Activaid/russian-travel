@@ -1,11 +1,29 @@
 .cover__background {
     display: flex;
     flex-direction: column;
-    max-width: 1184px;
-    min-height: 740px;
+    align-items: center;
+    align-content: center;
     background-image: url('../../../images/cover-bg.jpg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: inherit;
     text-decoration-line: none;
+}
+
+.cover__background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #2a2c2f;
+    opacity: .3;
+    transition: opacity .5s ease;
+    overflow: hidden;
+}
+
+.cover__background:hover::after {
+    opacity: .8;
 }

@@ -1,5 +1,25 @@
 .cover {
     position: relative;
+    max-width: 1280px;
+    min-height: 200px;
     padding: 0 48px;
     margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1152px) {
+    .cover {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin-bottom: 64px;
+    }
 }

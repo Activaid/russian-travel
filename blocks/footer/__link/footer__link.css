@@ -2,11 +2,12 @@
     text-decoration: none;
     color: inherit;
     font-size: 16px;
+    transition: opacity .5s ease;
 }
 
 .footer__link:hover {
     opacity: .8;
-  }
+}
 
 @media screen and (max-width: 767px) {
     .footer__link {
