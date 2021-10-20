@@ -3,5 +3,4 @@
 Проектная работа №3
 Добавлены технологии grid верстки, познакомились с медиа-запросами и отзывчивостью,  получены навыки работы с макетом, закрепили flex и БЭМ.
 
-Сcылка на gh-pages: https://activaid.github.io/russian-travel/
-=======
+https://activaid.github.io/russian-travel/
